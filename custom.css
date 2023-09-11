@@ -47,7 +47,7 @@ footer {
   @media only screen and (max-width: 480px) {
 
     .jumbotron-image {
-        background-size: contain;
+        background-size: 100% 100%; ;
         background-repeat: no-repeat;
         height: auto;
 
