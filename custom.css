@@ -36,3 +36,8 @@ footer {
     margin-top: 60px;
     padding: 5em;
 }
+.jumbotron-image {
+    background-image: url('jumbo-img.png'); 
+    background-size: cover; 
+    background-position: center center; 
+  }
