@@ -38,18 +38,10 @@ footer {
 }
 .jumbotron-image {
     background-image: url('JUMBO.png'); 
-    background-size: cover; 
     background-position: center center; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 568px;
   }
 /**pilt polnud piisavalt adaptiivne mobiiliversioonis seega lisasin selle siia
 */
-  @media only screen and (max-width: 480px) {
-
-    .jumbotron-image {
-        background-size: 100% 100%; ;
-        background-repeat: no-repeat;
-        height: auto;
-
-    }
-}
