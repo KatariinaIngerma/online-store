@@ -40,4 +40,5 @@ footer {
     background-image: url('JUMBO.png'); 
     background-size: cover; 
     background-position: center center; 
+    height: 568px;
   }
