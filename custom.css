@@ -32,10 +32,6 @@ section {
     align-content: center;
 }
 
-footer {
-    margin-top: 60px;
-    padding: 5em;
-}
 .jumbotron-image {
     background-image: url('JUMBO.png'); 
     background-size: cover; 
@@ -44,7 +40,7 @@ footer {
   }
 
   @media only screen and (max-width: 480px) {
-    
+
     .jumbotron-image {
         background-size: contain;
         background-repeat: no-repeat;
@@ -56,4 +52,8 @@ footer {
     .row {
         margin: 35px;
         }
+    footer {
+        margin-top: 60px;
+        padding: 5em;
+    }
 }
