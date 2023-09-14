@@ -42,10 +42,9 @@ footer {
     background-position: center center; 
     height: 568px;
   }
-/**pilt polnud piisavalt adaptiivne mobiiliversioonis seega lisasin selle siia
-*/
-  @media only screen and (max-width: 480px) {
 
+  @media only screen and (max-width: 480px) {
+    
     .jumbotron-image {
         background-size: contain;
         background-repeat: no-repeat;
@@ -53,7 +52,8 @@ footer {
 
     }
 }
-
-.row {
-    margin: 35px;
+@media only screen and (min-width: 780px) {
+    .row {
+        margin: 35px;
+        }
 }
