@@ -43,7 +43,9 @@ section {
 
     .jumbotron-image {
         height: 140px;
-
+    }
+    button {
+        margin-bottom: 20px;
     }
 }
 @media only screen and (min-width: 780px) {
